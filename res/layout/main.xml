@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/startbackground">
+
+    <ImageView     
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="30dp"
+		android:src="@drawable/start" />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_marginBottom="20dp"        
+        android:layout_weight="1">
+        <ImageView
+            android:id="@+id/newgame"
+            android:layout_width="fill_parent"
+            android:padding="5dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:src="@drawable/startgame"/>
+        <ImageView
+            android:id="@+id/loadinggame"
+            android:layout_width="fill_parent"
+            android:padding="5dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:src="@drawable/loadinggame"/>
+        <ImageView
+            android:id="@+id/about"
+            android:layout_width="fill_parent"
+            android:padding="5dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:src="@drawable/about"/>
+        <ImageView
+            android:id="@+id/exit"
+            android:layout_width="fill_parent"
+            android:padding="5dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:src="@drawable/exit"/>
+    </LinearLayout>
+   
+
+</LinearLayout>
